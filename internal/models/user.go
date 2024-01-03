@@ -4,8 +4,9 @@ import "time"
 
 type User struct {
 	ID            int
-	Name          string
+	RolID         int
 	DirectorionID int
+	Name          string
 	Phone         string
 	CreatedAt     time.Time
 	UpdatedAt     time.Time
